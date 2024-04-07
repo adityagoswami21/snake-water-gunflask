@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/styles.css"/>
+    <title>Flask | Snake Water Gun</title>
+</head>
+<body>
+<div class="wrapper">
+    <div class="buttonsContainer">
+        <form action="/play?choice=Snake" method="POST">
+            <button type="submit" class="rpsButton">🐍</button>
+        </form>
+        <form action="/play?choice=Water" method="POST">
+            <button type="submit" class="rpsButton">🌊</button>
+        </form>
+        <form action="/play?choice=Gun" method="POST">
+            <button type="submit" class="rpsButton">🔫</button>
+        </form>
+    </div>
+    <div class="buttonsContainer">
+        <form action="/end">
+            <button id='endGameButton'>🔴</button>
+        </form>
+    </div>
+    <div class="resultContainer">
+        <div id="player-score">{% if game_start %}{{ player_score }}{%endif%}</div>
+        <div id="hands">{{ choices }}</div>
+        <div id="result">{{ result }}</div>
+    </div>
+</div>
+</body>
+</html>
