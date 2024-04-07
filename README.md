@@ -18,7 +18,7 @@ Welcome to the Snake Water Gun Game! This project is a simple implementation of 
 1. Clone this repository to your local machine.
 2. Make sure you have Python and Flask installed.
 3. Navigate to the project directory in your terminal.
-4. Run `python app.py` to start the Flask server.
+4. Run `main.py` to start the Flask server.
 5. Open your web browser and go to `http://localhost:5000` to play the game.
 
 ## Preview
