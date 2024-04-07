@@ -22,10 +22,7 @@ Welcome to the Snake Water Gun Game! This project is a simple implementation of 
 5. Open your web browser and go to `http://localhost:5000` to play the game.
 
 ## Preview
-<video width="320" height="240" controls>
-  <source src="https://github.com/adityagoswami21/snake-water-gunflask/blob/main/swg-rec.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<img src="swg-rec.gif" alt="Game Preview GIF">
 
 
 ## Credits
