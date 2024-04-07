@@ -25,6 +25,6 @@ Welcome to the Snake Water Gun Game! This project is a simple implementation of 
 <!-- Insert image or video of your game here -->
 
 ## Credits
-- This project was created by [Your Name].
+- This project was created by Aditya Goswami.
 
 Feel free to reach out if you have any questions or feedback! Enjoy playing the Snake Water Gun Game!
